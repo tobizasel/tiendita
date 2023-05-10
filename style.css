@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem;
+}
+
+.header__titulo{
+    font-size: 4.5rem;
+}
+
+.header__menu{
+    width: 45%;
+    margin: auto 0;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    list-style: none;
+    font-weight: 300;
+
+}
+
+.section{
+    margin: 8rem auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila{
+    display: flex;
+}
+
+.fila:not(:last-child){
+    margin-bottom: 10rem;
+}
+
+.producto:not(:last-child){
+    margin-right: 10rem;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto__titulo{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.producto__imagen{
+    width: 40rem;
+    height: 40rem;
+}
+
+.producto__decripcion{
+    text-align: center;
+    width: 80%;
+    font-size: 1.4rem;
+} 
+
+.producto__boton{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    width: 10rem;
+    height: 2,8rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #DAE0F2;
+    color: #000;
+}
+
+.footer{
+    background-color: #DAE0F2;
+
+}
+
+.footer__text{
+    text-align: center;
+    font-size: 2.6rem;
+    padding: 2rem 0;
+    font-weight: 300;
+}
